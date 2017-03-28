@@ -22,3 +22,15 @@ def multiply (num_array)
 	end
 	total
 end 
+
+def power (num, power)
+	num ** power
+end
+
+def factorial num
+	if num > 0
+		num.downto(1).reduce(:*)
+	else
+		num
+	end
+end
